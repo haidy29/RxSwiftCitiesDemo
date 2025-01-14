@@ -27,11 +27,13 @@
                                         </connections>
                                     </searchBar>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jyM-St-MGJ">
-                                        <rect key="frame" x="144.66666666666666" y="112" width="112.99999999999997" height="39"/>
+                                        <rect key="frame" x="144.33333333333334" y="112" width="113.33333333333334" height="39"/>
                                         <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="tinted" title="is a capital?"/>
+                                        <buttonConfiguration key="configuration" style="tinted" title="is a capital?">
+                                            <color key="baseBackgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mge-r0-W4R">
                                         <rect key="frame" x="10" y="181" width="75" height="39"/>
@@ -107,7 +109,6 @@
                                     <constraint firstItem="wmR-ay-SXj" firstAttribute="top" secondItem="hRl-cb-zuP" secondAttribute="top" constant="25" id="JQj-v5-Bky"/>
                                     <constraint firstItem="12q-sS-xXu" firstAttribute="centerX" secondItem="hRl-cb-zuP" secondAttribute="centerX" id="Jaz-dA-d4g"/>
                                     <constraint firstItem="bHF-aQ-xKk" firstAttribute="top" secondItem="UBy-mX-CDs" secondAttribute="bottom" constant="20" id="Q4F-83-UdX"/>
-                                    <constraint firstAttribute="width" constant="393" id="QPQ-Pi-G6L"/>
                                     <constraint firstItem="wmR-ay-SXj" firstAttribute="leading" secondItem="hRl-cb-zuP" secondAttribute="leading" constant="10" id="Qu0-te-t2P"/>
                                     <constraint firstItem="bHF-aQ-xKk" firstAttribute="centerX" secondItem="hRl-cb-zuP" secondAttribute="centerX" id="WFh-cW-Fq3"/>
                                     <constraint firstItem="eFp-UI-uQT" firstAttribute="width" secondItem="hRl-cb-zuP" secondAttribute="width" multiplier="0.3" id="Wjr-RL-10x"/>
@@ -129,10 +130,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hRl-cb-zuP" secondAttribute="trailing" id="41Q-kE-SBk"/>
-                            <constraint firstItem="hRl-cb-zuP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="MxQ-KH-Mtd"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="hRl-cb-zuP" secondAttribute="bottom" id="eHH-a0-7wC"/>
-                            <constraint firstItem="hRl-cb-zuP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ipa-JS-GCY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hRl-cb-zuP" secondAttribute="trailing" id="WQ4-kQ-wKH"/>
+                            <constraint firstItem="hRl-cb-zuP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="g5w-K8-rAd"/>
+                            <constraint firstItem="hRl-cb-zuP" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="tCJ-Ic-IXB"/>
+                            <constraint firstItem="hRl-cb-zuP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="vuu-59-Bf2"/>
                         </constraints>
                     </view>
                 </viewController>
