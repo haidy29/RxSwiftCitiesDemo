@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ya4-C7-1PH">
     <device id="retina6_3" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hRl-cb-zuP">
-                                <rect key="frame" x="0.0" y="62" width="402" height="778"/>
+                                <rect key="frame" x="0.0" y="106" width="402" height="734"/>
                                 <subviews>
                                     <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="wmR-ay-SXj">
                                         <rect key="frame" x="10" y="25" width="382" height="56"/>
@@ -37,36 +37,40 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mge-r0-W4R">
                                         <rect key="frame" x="10" y="181" width="75" height="39"/>
+                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="75" id="4Tk-qQ-7Ax"/>
                                             <constraint firstAttribute="height" constant="39" id="eIZ-45-BHY"/>
                                         </constraints>
-                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Egypt">
+                                        <buttonConfiguration key="configuration" style="tinted" title="Egypt">
                                             <color key="baseBackgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CkZ-YO-rNl">
                                         <rect key="frame" x="163.66666666666666" y="181" width="75" height="39"/>
+                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="39" id="dkd-Uv-vDI"/>
                                             <constraint firstAttribute="width" constant="75" id="nz7-lt-HZj"/>
                                         </constraints>
-                                        <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Italy">
+                                        <buttonConfiguration key="configuration" style="tinted" title="Italy">
                                             <color key="baseBackgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Pv-cG-sIP">
                                         <rect key="frame" x="317" y="181" width="75" height="39"/>
+                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="39" id="91S-FC-qoW"/>
                                             <constraint firstAttribute="width" constant="75" id="n3k-oI-yR6"/>
                                         </constraints>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="USA">
+                                        <buttonConfiguration key="configuration" style="tinted" title="USA">
                                             <color key="baseBackgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                     </button>
@@ -136,10 +140,40 @@
                             <constraint firstItem="hRl-cb-zuP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="vuu-59-Bf2"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="mkg-CP-RZZ"/>
+                    <connections>
+                        <outlet property="SeachTxt" destination="wmR-ay-SXj" id="ibT-Oh-spS"/>
+                        <outlet property="egyptBtn" destination="mge-r0-W4R" id="g8P-EE-YNs"/>
+                        <outlet property="firstValueTxt" destination="UBy-mX-CDs" id="fqi-IY-mqw"/>
+                        <outlet property="isCapitalBtn" destination="jyM-St-MGJ" id="6jd-fQ-9Q8"/>
+                        <outlet property="italyBtn" destination="CkZ-YO-rNl" id="ZbQ-Vu-Z45"/>
+                        <outlet property="okBtn" destination="12q-sS-xXu" id="Zd5-rv-I8C"/>
+                        <outlet property="secondValueTxt" destination="eFp-UI-uQT" id="6X7-80-mwI"/>
+                        <outlet property="tempTxt" destination="bHF-aQ-xKk" id="rRS-zP-KXm"/>
+                        <outlet property="usaBtn" destination="7Pv-cG-sIP" id="Acy-Lz-HdF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="20.610687022900763" y="3.5211267605633805"/>
+            <point key="canvasLocation" x="938.80597014925365" y="3.432494279176201"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="84Z-XU-LW2">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ya4-C7-1PH" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="MlS-6B-sUG">
+                        <rect key="frame" x="0.0" y="62" width="402" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="I6r-RU-4dS"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J8U-6v-tAa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="19.402985074626866" y="3.432494279176201"/>
         </scene>
     </scenes>
     <resources>

@@ -18,7 +18,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		475F2C542D366F0F00E710DD /* Exceptions for "RxSwiftCitiesDemo" folder in "RxSwiftCitiesDemo" target */ = {
+		47871C942D3728F7002FDA7B /* Exceptions for "RxSwiftCitiesDemo" folder in "RxSwiftCitiesDemo" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -31,7 +31,7 @@
 		475F2C442D366F0D00E710DD /* RxSwiftCitiesDemo */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				475F2C542D366F0F00E710DD /* Exceptions for "RxSwiftCitiesDemo" folder in "RxSwiftCitiesDemo" target */,
+				47871C942D3728F7002FDA7B /* Exceptions for "RxSwiftCitiesDemo" folder in "RxSwiftCitiesDemo" target */,
 			);
 			path = RxSwiftCitiesDemo;
 			sourceTree = "<group>";
